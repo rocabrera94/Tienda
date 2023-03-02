@@ -33,7 +33,7 @@ useEffect(()=> {
     fetcher();
 },[])
 const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor:  'rgb(147, 153, 160)',   //.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    backgroundColor:  'white',   //.palette.mode === 'dark' ? '#1A2027' : '#fff',
     ...theme.typography.body2,
     padding: theme.spacing(2),
     textAlign: 'center',
